@@ -162,6 +162,7 @@ form {
     width: 380px;
     text-align: center;
     padding-top: 50px;
+    margin-top: 50px;
   }
   .email-title {
     font-size: 28px;
@@ -216,6 +217,8 @@ h2 {
   display: flex;
   width: 600px;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -229,14 +232,17 @@ h2 {
 
 @media screen and (max-width: 900px) {
   .certificado-content {
-    width: 440px;
-  }
-  .certificado-text {
+    margin: auto;
     width: 400px;
   }
-  .certificado-img {
+  .certificado-text {
+    margin: auto;
     width: 350px;
-    margin: 20px 0px;
+  }
+  .certificado-img {
+    width: 320px;
+    margin: auto;
+    padding: 20px;
   }
 }
 .bg-profs {
