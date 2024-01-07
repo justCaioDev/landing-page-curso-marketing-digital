@@ -111,18 +111,24 @@ form {
     }
 
     .hero-email {
-        width: 380px;
+        width: 400px;
         text-align: center;
         padding-top: 50px;
         margin-top: 50px;
     }
 
     .email-title {
-        font-size: 28px;
+        font-size: 34px;
+        text-shadow: 2px 2px 20px rgba(255, 255, 0, 0.613);
     }
 
    #iemail {
-        width: 400px;
+        width: 390px;
+        margin: 20px auto;
+   }
+
+   #isubmit {
+        margin-top: 35px;
    }
 }
 
