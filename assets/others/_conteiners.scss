@@ -1,0 +1,49 @@
+.hero-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.modulos-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.certificado-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    flex: 1;
+}
+
+.profs-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    flex: 1;
+}
+
+.footer-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
