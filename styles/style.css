@@ -177,6 +177,10 @@ form {
   }
 }
 /*---------------------------------------------*/
+.bg-modulos {
+  background-color: white;
+}
+
 .modulos-content {
   margin: 20px auto;
   padding: 50px;
