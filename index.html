@@ -11,81 +11,229 @@
     <header>
         <div class="hero">
             <div class="nav">
-                <img class="hero-icon" src="assets/images/hero-icon.png" alt="Icone Hero">
+                <a href="#hero-container">
+                    <img class="hero-icon" src="assets/images/hero-icon.png" alt="Icone Hero">
+                </a>
+                <div class="nav-menu">
+                    <ul>
+                        <li>
+                            <a href="#hero-container">Início</a>
+                        </li>
+                        <li>
+                            <a href="#professores">Professores</a>
+                        </li>
+                        <li>
+                            <a class="matricula" href="">Matricule-se</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="hero-conteiner">
+            <div class="hero-conteiner" id="hero-container">
                 <div class="hero-text">
-                    <div class="hero-title">
-                        <h1>Curso</h1>
-                        <h1><span>Marketing Digital</span></h1>
+                    <div class="hero-title-container">
+                        <h1 class="hero-title">Curso</h1>
+                        <h1 class="hero-title"><span>Marketing Digital</span></h1>
                     </div>
-                    <p>Nesse curso, você irá descobrir tudo sobre marketing digital e sua importância nos  negócios. Assim, podendo alavancar sua carreira profissional.</p>
+                    <p class="hero-description">Nesse curso, você irá descobrir tudo sobre marketing digital e sua importância nos  negócios. Assim, podendo alavancar sua carreira profissional.</p>
+                    <p class="hero-rate">⭐ 4.5</p>
+                    <button class="hero-btn">Quero me matricular</button>
                 </div>
                 <div class="hero-img">
                     <img src="assets/images/hero-img.png" alt="Imagem principal" class="hero-img">
                 </div>
             </div>
-            <div class="hero-email">
-                <h1><span class="email-title">Informe seu email para ganhar acesso gratuito</span></h1>
-                <form>
-                    <input type="email" placeholder="Seu email aqui..." id="iemail">
-                    <input type="submit" value="Ganhar acesso gratuito!" id="isubmit">
-                </form>
-            </div>
+            
         </div>
     </header>
     
         <div class="bg-modulos">
             <section class="modulos-conteiner">
                 <div class="modulos-content">
-                    <h2>O curso conta com 6 (seis) módulos:</h2>
-                    <ul>
-                        <li>Introdução ao Marketing Digital</li>
-                        <li>Estratégia do Marketing Digital na sua Empresa</li>
-                        <li>Inbound Marketing</li>
-                        <li>Vendarketing</li>
-                        <li>Métricas de Marketing Digital</li>
-                        <li>Montando um Departamento de Marketing Digital</li>
-                    </ul>
+                    <h2 class="modulos-title">Módulos</h2>
+                    <p class="modulos-description">Nosso curso conta com um total de 12 módulos. Sinta-se livre para conhecer eles abaixo.</p>
+                    <div class="modulos">
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 1: Introdução ao Marketing Digital</h2>
+                            <p class="modulo-duration">Duração: 9 horas</p>
+                            <ul class="modulo-content">
+                                <li>O que é Marketing Digital?</li>
+                                <li>A evolução do Marketing Digital</li>
+                                <li>Principais conceitos e terminologia</li>
+                                <li>Importância do Marketing Digital nas empresas modernas</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 2: Planejamento de Marketing Digital</h2>
+                            <p class="modulo-duration">Duração: 18 horas</p>
+                            <ul class="modulo-content">
+                                <li>Análise de mercado e concorrência</li>
+                                <li>Definição de objetivos e metas</li>
+                                <li>Desenvolvimento de uma estratégia de Marketing Digital</li>
+                                <li>Elaboração de um plano de ação</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 3: SEO (Search Engine Optimization)</h2>
+                            <p class="modulo-duration">Duração: 27 horas</p>
+                            <ul class="modulo-content">
+                                <li>Fundamentos de SEO</li>
+                                <li>Pesquisa de palavras-chave</li>
+                                <li>Otimização On-page e Off-page</li>
+                                <li>Ferramentas de SEO</li>
+                                <li>Métricas e análise de desempenho em SEO</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 4: Marketing de Conteúdo</h2>
+                            <p class="modulo-duration">Duração: 18 horas</p>
+                            <ul class="modulo-content">
+                                <li>O que é Marketing de Conteúdo?</li>
+                                <li>Criação e gestão de conteúdos</li>
+                                <li>Blogging e SEO para conteúdo</li>
+                                <li>Estratégias de distribuição de conteúdo</li>
+                                <li>Mensuração de resultados em Marketing de Conteúdo</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 5: Redes Sociais</h2>
+                            <p class="modulo-duration">Duração: 27 horas</p>
+                            <ul class="modulo-content">
+                                <li>Introdução às principais plataformas (Facebook, Instagram, Twitter, LinkedIn, etc.)</li>
+                                <li>Desenvolvimento de estratégias para redes sociais</li>
+                                <li>Criação e gestão de campanhas nas redes sociais</li>
+                                <li>Ferramentas de automação e análise de redes sociais</li>
+                                <li>Engajamento e atendimento ao cliente através das redes sociais</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 6: Publicidade Online (PPC)</h2>
+                            <p class="modulo-duration">Duração: 27 horas</p>
+                            <ul class="modulo-content">
+                                <li>Fundamentos do Pay-Per-Click (PPC)</li>
+                                <li>Introdução ao Google Ads</li>
+                                <li>Campanhas no Facebook Ads e Instagram Ads</li>
+                                <li>Campanhas de Retargeting</li>
+                                <li>Medição e otimização de campanhas PPC</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 7: E-mail Marketing</h2>
+                            <p class="modulo-duration">Duração: 18 horas</p>
+                            <ul class="modulo-content">
+                                <li>Fundamentos do E-mail Marketing</li>
+                                <li>Construção e segmentação de listas de e-mails</li>
+                                <li>Criação de campanhas de e-mail eficazes</li>
+                                <li>Automação de e-mails</li>
+                                <li>Análise e otimização de campanhas de E-mail Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 8: Analytics e Métricas</h2>
+                            <p class="modulo-duration">Duração: 18 horas</p>
+                            <ul class="modulo-content">
+                                <li>Introdução ao Google Analytics</li>
+                                <li>Métricas essenciais para o Marketing Digital</li>
+                                <li>Configuração e monitoramento de KPIs</li>
+                                <li>Análise de dados e geração de insights</li>
+                                <li>Relatórios e dashboards</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 9: Marketing de Afiliados</h2>
+                            <p class="modulo-duration">Duração: 9 horas</p>
+                            <ul class="modulo-content">
+                                <li>O que é Marketing de Afiliados?</li>
+                                <li>Principais plataformas de afiliados</li>
+                                <li>Desenvolvimento de programas de afiliados</li>
+                                <li>Estratégias para aumentar as vendas através de afiliados</li>
+                                <li>Medição e avaliação de programas de afiliados</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 10: Mobile Marketing</h2>
+                            <p class="modulo-duration">Duração: 9 horas</p>
+                            <ul class="modulo-content">
+                                <li>Fundamentos do Mobile Marketing</li>
+                                <li>Criação de campanhas para dispositivos móveis</li>
+                                <li>Aplicativos e publicidade mobile</li>
+                                <li>Otimização de sites para dispositivos móveis</li>
+                                <li>Análise de resultados em Mobile Marketing</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 11: Estratégias Avançadas de Marketing Digital</h2>
+                            <p class="modulo-duration">Duração: 18 horas</p>
+                            <ul class="modulo-content">
+                                <li>Marketing de Influência</li>
+                                <li>Inbound Marketing</li>
+                                <li>Marketing de vídeo</li>
+                                <li>Inteligência Artificial no Marketing Digital</li>
+                                <li>Tendências futuras no Marketing Digital</li>
+                            </ul>
+                        </div>
+                        <div class="modulo">
+                            <h2 class="modulo-title">Módulo 12: Projeto Final</h2>
+                            <p class="modulo-duration">Duração: 27 horas</p>
+                            <ul class="modulo-content">
+                                <li>Desenvolvimento de um plano de Marketing Digital completo</li>
+                                <li>Apresentação do plano para a turma e/ou instrutores</li>
+                                <li>Feedback e ajustes finais</li>
+                                <li>Implementação de estratégias em um caso real ou simulado</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
         <div class="bg-certificado">
         <section class="certificado-conteiner">
+            <h2 class="certificado-title">Certificado</h2>
+            <p class="certificado-description">Não cobramos nada para retirar o certificado. Conclua nosso curso para ter acesso 100% gratuito ao seu certificado.</p>
             <div class="certificado-content">
-                <div class="certificado-text">
-                    <h2 class="certificado-title">Curso com certificado 100% gratuito!</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam minima possimus rem magnam nesciunt, minus eligendi, inventore ducimus nobis illum! Officia dignissimos officiis rerum vel rem impedit consequatur earum?</p>
-                </div>
                 <img class="certificado-img" src="assets/images/certificado-img.webp" alt="certificado">
+                <div class="form-container">
+                    <h2 class="form-title">Preencha o formulário para ter acesso ao curso e ao certificado no final</h2>
+                    <form class="certificado-form">
+                        <div class="certificado-name">
+                            <label for="name">Nome:</label>
+                            <input type="text" placeholder="Seu nome completo" name="name" id="name" required autocomplete="off">
+                        </div>
+                        <div class="certificado-email">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Seu melhor email" name="email" id="email" required autocomplete="off">
+                        </div>
+                        <div class="certificado-phone">
+                            <label for="phone">Celular:</label>
+                            <input type="tel" placeholder="Seu número de celular" name="phone" id="phone" required autocomplete="off">
+                        </div>
+                        <button type="submit" class="certificado-btn">Acessar</button>
+                    </form>
+                </div>
             </div>
         </section>
     </div>
 
     <div class="bg-profs">
-        <section class="profs-conteiner">
+        <section class="profs-conteiner" id="professores">
             <div class="profs-content">
-                <h2 class="profs-title">Conheça nossos professores</h2>
+                <h2 class="profs-title">Professores</h2>
+                <p class="profs-description">Conheça os professores que vão te ensinar nesse curso.</p>
                 <div class="profs-row">
                     <div class="prof">
                         <img src="assets/images/prof-img.png" alt="foto professor" class="prof-img">
                         <h3 class="prof-name">Prof. Mario da Silva</h3>
-                        <p class="prof-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor?</p>
                     </div>
                     <div class="prof">
                         <img src="assets/images/prof-img.png" alt="foto professor" class="prof-img">
                         <h3 class="prof-name">Prof. Roberta Carvalho</h3>
-                        <p class="prof-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor?</p>
                     </div>
                     <div class="prof">
                         <img src="assets/images/prof-img.png" alt="foto professor" class="prof-img">
                         <h3 class="prof-name">Prof. Jorge Matheus</h3>
-                        <p class="prof-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor?</p>
                     </div>
                     <div class="prof">
                         <img src="assets/images/prof-img.png" alt="foto professor" class="prof-img">
                         <h3 class="prof-name">Prof. Maria Clara</h3>
-                        <p class="prof-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor?</p>
                     </div>
                 </div>
             </div>
