@@ -153,32 +153,30 @@ span {
 }
 
 @media screen and (max-width: 900px) {
+    .nav {
+        width: 100vw;
+        padding: 20 10px 0;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+
+    .hero-description {
+        width: 100%;
+    }
+
     .hero-conteiner {
         flex-direction: column;
+        padding: 150px 20px;
+        gap: 50px;
     }
 
     .hero-img {
         padding: 0px;
-        width: 378px;
+        width: 100%;
     }
-
-    .hero-text {
-        width: 300px;
-        margin: 25px 0px;
-    }
-
-    .hero-email {
-        width: 400px;
-        text-align: center;
-        padding-top: 50px;
-        margin-top: 50px;
-    }
-
-    .email-title {
-        font-size: 34px;
-        text-shadow: 2px 2px 20px rgba(255, 255, 0, 0.613);
-    }
-
+  
 }
 
 /*---------------------------------------------*/
@@ -252,18 +250,26 @@ span {
 }
 
 @media screen and (max-width: 900px) {
-    .modulos-content {
-        width: 385px;
-        height: 500px;
+    .modulos-conteiner {
+        padding: 100px 20px;
     }
 
-    h2 {
-        font-size: 28px;
+    .modulo-content {
+        padding: 20px 10px;
     }
 
-    li {
-        font-size: 20px;
-        line-height: 30px;
+    .modulos {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .modulo {
+        padding: 30px 10px;
+        min-width: 90%;
     }
 }
 
@@ -358,20 +364,31 @@ span {
 }
 
 @media screen and (max-width: 900px) {
-    .certificado-content {
-        margin: auto;
-        width: 400px;
+
+    .certificado-conteiner {
+        padding: 100px 20px;
     }
 
-    .certificado-text {
-        margin: auto;
-        width: 350px;
+    .certificado-content {
+        display: flex;
+        flex-direction: column;
     }
 
     .certificado-img {
-        width: 320px;
-        margin: auto;
-        padding: 20px;
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100vw;
+        padding: 50px 20px;
+    }
+
+    .form-title {
+        width: 100%;
+    }
+
+    .certificado-form {
+        width: 100%;
     }
 }
 
@@ -444,15 +461,20 @@ span {
 
 
 @media screen and (max-width: 900px) {
+    .profs-conteiner {
+        padding: 100px 20px;
+    }
+
     .profs-row {
+        width: 100%;
+        display: flex;
         flex-wrap: wrap;
         gap: 20px;
-        width: 380px;
     }
 
     .prof {
-        width: 180px;
-        height: 380px;
+        margin: 0;
+        width: 40%;
     }
 }
 
@@ -485,7 +507,8 @@ span {
     }
 
     .footer-content p {
-        width: 400px;
+        width: 100%;
+        height: auto;
         font-size: 18px;
         margin: 20px 0px;
     }
